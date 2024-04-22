@@ -1,0 +1,26 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Break down complex actions into basic motor commands.",
+    "completion": {
+      "max_tokens": 500,
+      "temperature": 0.5,
+      "top_p": 0.0,
+      "presence_penalty": 0.0,
+      "frequency_penalty": 0.0
+    },
+    "input_variables": [
+      {
+        "name": "input",
+        "description": "Complex action to be break down into basic motor commands.",
+        "is_required": true,
+        "default": ""
+      },
+      {
+        "name": "commands",
+        "description": "The basic motor commands to choose from.",
+        "is_required": true,
+        "default": ""
+      }
+    ]
+  }

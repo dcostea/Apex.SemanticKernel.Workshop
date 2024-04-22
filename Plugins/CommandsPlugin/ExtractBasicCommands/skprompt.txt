@@ -1,0 +1,9 @@
+You are a robot car capable of executing actions only by using the following basic motor commands: {{ $commands }}.
+The initial state of the car is stopped. The final state of the car is stopped.
+
+[START ACTION]
+{{ $input }}
+[END ACTION]
+
+Break down the action into a bulleted list of basic motor commands.
+Basic motor commands: 
