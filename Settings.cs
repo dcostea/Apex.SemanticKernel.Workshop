@@ -7,9 +7,9 @@ public static class Settings
     {
         var kernel = Kernel.CreateBuilder()
             .AddAzureOpenAIChatCompletion(
-                deploymentName: "gpt-4-turbo",
-                endpoint: "https://apexdemo.openai.azure.com/",
-                apiKey: "f5d8a3a6f9fc4703aef8c56e2828ac16")
+                deploymentName: "your deployment",
+                endpoint: "your endpoint",
+                apiKey: "your key")
         .Build();
 
         return kernel;
@@ -21,10 +21,10 @@ public static class Settings
 #pragma warning disable SKEXP0010
         var kernel = Kernel.CreateBuilder()
             .AddAzureOpenAIChatCompletion(
-                deploymentName: "gpt-4-vision-preview",
-                endpoint: "https://apexdalle3.openai.azure.com/",
-                apiKey: "e066ae2206cd44adad46eef2e9bb8449")
-            .AddOpenAITextToImage(apiKey: "e066ae2206cd44adad46eef2e9bb8449") 
+                deploymentName: "your deployment",
+                endpoint: "your endpoint",
+                apiKey: "your key")
+            .AddOpenAITextToImage(apiKey: "your key") 
         .Build();
 
         return kernel;
