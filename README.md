@@ -1,21 +1,11 @@
-# Hello!
+# Prerequisites:
 
-Visit the [Semantic Kernel repo](https://github.com/microsoft/semantic-kernel) to learn more about what this is all about :+).
+.NET 8: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 
----
+Visual Studio Code: https://code.visualstudio.com/download
 
-Again, hi there! To get started with this repo, you'll need to:
+Polyglot Notebook extension: vscode:extension/ms-dotnettools.dotnet-interactive-vscode
 
-1. Have VS Code running on your machine (be sure it's updated)
-2. Get the Polyglot Notebook extension running in VS Code
+Clone or download this code repository
 
-![](assets/polyglot.png)
-
-3. Install Dotnet 8
-4. Clone or fork this repo
-5. Have your OAI or AOAI key ready to input in step 2 of `0 Setup.ipynb`
-6. When running the notebooks, select `.NET Interactive` for your VS Code Notebook kernel
-
-![](assets/dotnetinteractive.png)
-
-⚠️ Don't forget: Python != C#/.NET :+) Polyglot Notebook extension lets C#/.NET magically run Python-style notebooks. IMHO it's really cool!
+Get your own Azure OpenAI api key
