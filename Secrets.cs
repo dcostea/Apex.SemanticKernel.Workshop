@@ -11,4 +11,6 @@ public class Secrets
     public const string ApyKey3 = "your key here";
     public const string Endpoint3 = "your endpoint here";
     public const string DeploymentName3 = "your deployment name here";
+
+    public const string BingSearchKey = "your bing search key here";
 }

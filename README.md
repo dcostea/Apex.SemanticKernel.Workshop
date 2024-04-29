@@ -8,4 +8,9 @@ Polyglot Notebook extension: vscode:extension/ms-dotnettools.dotnet-interactive-
 
 Clone or download this code repository
 
-Get your own Azure OpenAI api key
+### Attention!
+
+The api keys are personal and they are not published in this repository, you have to obtain your own Azure OpenAI api keys
+
+### These notebooks were inspired by the work of John Maeda
+https://github.com/johnmaeda/SK-1-Basics
