@@ -1,3 +1,4 @@
+
 public class Secrets
 {
     public const string ApyKey = "your key here";
@@ -13,4 +14,7 @@ public class Secrets
     public const string DeploymentName3 = "your deployment name here";
 
     public const string BingSearchKey = "your bing search key here";
+
+   public const string OpenAIModel = "your model here";
+   public const string OpenAIApiKey = "your key here";
 }

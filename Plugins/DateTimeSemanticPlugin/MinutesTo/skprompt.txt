@@ -1,0 +1,1 @@
+How many minutes until {{$input}}? Consider that today is {{$today}}.

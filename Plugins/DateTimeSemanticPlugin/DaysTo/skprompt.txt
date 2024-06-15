@@ -1,1 +1,1 @@
-How many days until {{$input}}?
+How many days until {{$input}}? Consider that today is {{$today}}.
