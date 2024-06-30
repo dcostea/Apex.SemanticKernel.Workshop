@@ -1,16 +1,15 @@
-# Prerequisites:
+public class Secrets
+{
+    // for Azure (including images)
+    public const string ApyKey = "your key here";
+    public const string Endpoint = "your deployment name here";
+    public const string DeploymentName = "your key here";
+    public const string Model = "your key here";
 
-.NET 8: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+    // for search
+    public const string BingSearchKey = "your bing search key here";
 
-Visual Studio Code: https://code.visualstudio.com/download
-
-Polyglot Notebook extension: vscode:extension/ms-dotnettools.dotnet-interactive-vscode
-
-Clone or download this code repository
-
-### Attention!
-
-The api keys are personal and they are not published in this repository, you have to obtain your own Azure OpenAI api keys
-
-### These notebooks were inspired by the work of John Maeda
-https://github.com/johnmaeda/SK-1-Basics
+    // for OpenAI account
+    public const string OpenAIModel = "your model here";
+    public const string OpenAIApiKey = "your key here";
+}
