@@ -1,6 +1,7 @@
+
 public class Secrets
 {
-    // for Azure (including images)
+// for Azure (including images)
     public const string ApyKey = "your key here";
     public const string Endpoint = "your deployment name here";
     public const string DeploymentName = "your key here";
